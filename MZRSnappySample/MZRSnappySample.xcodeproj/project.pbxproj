@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3BC9FC1A050D650014033B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BC9FB1A050D650014033B /* AppDelegate.swift */; };
+		FF3BC9FE1A050D650014033B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BC9FD1A050D650014033B /* ViewController.swift */; };
+		FF3BCA011A050D650014033B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3BC9FF1A050D650014033B /* Main.storyboard */; };
+		FF3BCA031A050D650014033B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3BCA021A050D650014033B /* Images.xcassets */; };
+		FF3BCA061A050D650014033B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3BCA041A050D650014033B /* LaunchScreen.xib */; };
+		FF3BCA121A050D650014033B /* MZRSnappySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BCA111A050D650014033B /* MZRSnappySampleTests.swift */; };
+		FF3BCA241A050EB60014033B /* Snappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3BCA211A050E5C0014033B /* Snappy.framework */; };
+		FF3BCA251A050EB60014033B /* Snappy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF3BCA211A050E5C0014033B /* Snappy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3BCA0C1A050D650014033B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BC9EE1A050D650014033B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3BC9F51A050D650014033B;
+			remoteInfo = MZRSnappySample;
+		};
+		FF3BCA201A050E5C0014033B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = Snappy;
+		};
+		FF3BCA221A050E5C0014033B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = SnappyTests;
+		};
+		FF3BCA261A050EB60014033B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = Snappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF3BCA281A050EB60014033B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF3BCA251A050EB60014033B /* Snappy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF3BC9F61A050D650014033B /* MZRSnappySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZRSnappySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3BC9FA1A050D650014033B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3BC9FB1A050D650014033B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3BC9FD1A050D650014033B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3BCA001A050D650014033B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3BCA021A050D650014033B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF3BCA051A050D650014033B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF3BCA0B1A050D650014033B /* MZRSnappySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZRSnappySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3BCA101A050D650014033B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3BCA111A050D650014033B /* MZRSnappySampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRSnappySampleTests.swift; sourceTree = "<group>"; };
+		FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Snappy.xcodeproj; path = ../../Snappy/Snappy.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3BC9F31A050D650014033B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BCA241A050EB60014033B /* Snappy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BCA081A050D650014033B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3BC9ED1A050D650014033B = {
+			isa = PBXGroup;
+			children = (
+				FF3BC9F81A050D650014033B /* MZRSnappySample */,
+				FF3BCA0E1A050D650014033B /* MZRSnappySampleTests */,
+				FF3BC9F71A050D650014033B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3BC9F71A050D650014033B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BC9F61A050D650014033B /* MZRSnappySample.app */,
+				FF3BCA0B1A050D650014033B /* MZRSnappySampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3BC9F81A050D650014033B /* MZRSnappySample */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */,
+				FF3BC9FB1A050D650014033B /* AppDelegate.swift */,
+				FF3BC9FD1A050D650014033B /* ViewController.swift */,
+				FF3BC9FF1A050D650014033B /* Main.storyboard */,
+				FF3BCA021A050D650014033B /* Images.xcassets */,
+				FF3BCA041A050D650014033B /* LaunchScreen.xib */,
+				FF3BC9F91A050D650014033B /* Supporting Files */,
+			);
+			path = MZRSnappySample;
+			sourceTree = "<group>";
+		};
+		FF3BC9F91A050D650014033B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BC9FA1A050D650014033B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3BCA0E1A050D650014033B /* MZRSnappySampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BCA111A050D650014033B /* MZRSnappySampleTests.swift */,
+				FF3BCA0F1A050D650014033B /* Supporting Files */,
+			);
+			path = MZRSnappySampleTests;
+			sourceTree = "<group>";
+		};
+		FF3BCA0F1A050D650014033B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BCA101A050D650014033B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3BCA1C1A050E5C0014033B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BCA211A050E5C0014033B /* Snappy.framework */,
+				FF3BCA231A050E5C0014033B /* SnappyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3BC9F51A050D650014033B /* MZRSnappySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BCA151A050D650014033B /* Build configuration list for PBXNativeTarget "MZRSnappySample" */;
+			buildPhases = (
+				FF3BC9F21A050D650014033B /* Sources */,
+				FF3BC9F31A050D650014033B /* Frameworks */,
+				FF3BC9F41A050D650014033B /* Resources */,
+				FF3BCA281A050EB60014033B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3BCA271A050EB60014033B /* PBXTargetDependency */,
+			);
+			name = MZRSnappySample;
+			productName = MZRSnappySample;
+			productReference = FF3BC9F61A050D650014033B /* MZRSnappySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3BCA0A1A050D650014033B /* MZRSnappySampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BCA181A050D650014033B /* Build configuration list for PBXNativeTarget "MZRSnappySampleTests" */;
+			buildPhases = (
+				FF3BCA071A050D650014033B /* Sources */,
+				FF3BCA081A050D650014033B /* Frameworks */,
+				FF3BCA091A050D650014033B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3BCA0D1A050D650014033B /* PBXTargetDependency */,
+			);
+			name = MZRSnappySampleTests;
+			productName = MZRSnappySampleTests;
+			productReference = FF3BCA0B1A050D650014033B /* MZRSnappySampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3BC9EE1A050D650014033B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = molabo;
+				TargetAttributes = {
+					FF3BC9F51A050D650014033B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FF3BCA0A1A050D650014033B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FF3BC9F51A050D650014033B;
+					};
+				};
+			};
+			buildConfigurationList = FF3BC9F11A050D650014033B /* Build configuration list for PBXProject "MZRSnappySample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3BC9ED1A050D650014033B;
+			productRefGroup = FF3BC9F71A050D650014033B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF3BCA1C1A050E5C0014033B /* Products */;
+					ProjectRef = FF3BCA1B1A050E5C0014033B /* Snappy.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF3BC9F51A050D650014033B /* MZRSnappySample */,
+				FF3BCA0A1A050D650014033B /* MZRSnappySampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF3BCA211A050E5C0014033B /* Snappy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Snappy.framework;
+			remoteRef = FF3BCA201A050E5C0014033B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF3BCA231A050E5C0014033B /* SnappyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SnappyTests.xctest;
+			remoteRef = FF3BCA221A050E5C0014033B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3BC9F41A050D650014033B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BCA011A050D650014033B /* Main.storyboard in Resources */,
+				FF3BCA061A050D650014033B /* LaunchScreen.xib in Resources */,
+				FF3BCA031A050D650014033B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BCA091A050D650014033B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3BC9F21A050D650014033B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BC9FE1A050D650014033B /* ViewController.swift in Sources */,
+				FF3BC9FC1A050D650014033B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BCA071A050D650014033B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BCA121A050D650014033B /* MZRSnappySampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3BCA0D1A050D650014033B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3BC9F51A050D650014033B /* MZRSnappySample */;
+			targetProxy = FF3BCA0C1A050D650014033B /* PBXContainerItemProxy */;
+		};
+		FF3BCA271A050EB60014033B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Snappy;
+			targetProxy = FF3BCA261A050EB60014033B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3BC9FF1A050D650014033B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3BCA001A050D650014033B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3BCA041A050D650014033B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3BCA051A050D650014033B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3BCA131A050D650014033B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3BCA141A050D650014033B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3BCA161A050D650014033B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MZRSnappySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3BCA171A050D650014033B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MZRSnappySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3BCA191A050D650014033B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZRSnappySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZRSnappySample.app/MZRSnappySample";
+			};
+			name = Debug;
+		};
+		FF3BCA1A1A050D650014033B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZRSnappySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZRSnappySample.app/MZRSnappySample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3BC9F11A050D650014033B /* Build configuration list for PBXProject "MZRSnappySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BCA131A050D650014033B /* Debug */,
+				FF3BCA141A050D650014033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3BCA151A050D650014033B /* Build configuration list for PBXNativeTarget "MZRSnappySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BCA161A050D650014033B /* Debug */,
+				FF3BCA171A050D650014033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3BCA181A050D650014033B /* Build configuration list for PBXNativeTarget "MZRSnappySampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BCA191A050D650014033B /* Debug */,
+				FF3BCA1A1A050D650014033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3BC9EE1A050D650014033B /* Project object */;
+}
