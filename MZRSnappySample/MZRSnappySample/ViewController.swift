@@ -14,14 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // FULL SCREEN VIEW [YELLOW]
+        // FULL SCREEN VIEW [BLUE]
         
-        let yellowView = UIView()
-        yellowView.backgroundColor = UIColor.yellowColor()
-        self.view.addSubview(yellowView)
+        let blueView = UIView()
+        blueView.backgroundColor = UIColor.blueColor()
+        self.view.addSubview(blueView)
         
-        yellowView.backgroundColor = UIColor.redColor()
-        yellowView.snp_makeConstraints { make in
+        blueView.snp_makeConstraints { make in
             make.edges.equalTo(self.view)
             return
         }

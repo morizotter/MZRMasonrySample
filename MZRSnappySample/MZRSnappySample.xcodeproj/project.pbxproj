@@ -486,6 +486,7 @@
 				FF3BCA171A050D650014033B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3BCA181A050D650014033B /* Build configuration list for PBXNativeTarget "MZRSnappySampleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +495,7 @@
 				FF3BCA1A1A050D650014033B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
